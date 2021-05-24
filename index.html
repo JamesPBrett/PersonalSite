@@ -4,15 +4,95 @@
 <head>
   <meta charset="utf-8">
   <title>James Brett</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="James Brett Portfolio">
   <meta name="author" content="James Brett">
-
   <link href="css/reset.css?v=1.0" rel="stylesheet">
   <link href="css/styles.css?v=1.0" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
 </head>
 
 <body>
+<nav class="nav">
+  <ul class="menu">
+    <li class="logo"><a href="#">James Brett</a></li>
+    <li class="item"><a href="#about-me">About</a></li>
+    <li class="item"><a href="#projects">Projects</a></li>
+    <li class="item"><a href="contact.html">Contact</a></li>
+    <li class="toggle"><a href="#"><i class="fa fa-bars"></i></a></li>
+  </ul>
+</nav>
+<main>
+  <section id="about-me">
+    <div class="about-me-container">
+      <div class="about-me-text-container">
+        <h1>Hi, I'm James</h1>
+        <p>I'm a full stack developer.</p>
+        <p>I love creating websites and
+           backend applications, that focus on the user experience.
+        </p>
+      </div>
+      <img src="media/images/undraw_solution_mindset_34bi.svg" alt="" class="illustration">
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Coming Soon!</h3>
+        <p class="project-description">
+          Projects in development.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Coming Soon!</h3>
+        <p class="project-description">
+          Projects in development.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Coming Soon!</h3>
+        <p class="project-description">
+          Projects in development.
+        </p>
+      </div>
+      <div class="project">
+        <h3>Coming Soon!</h3>
+        <p class="project-description">
+          Projects in development.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div id="skills-container">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3-alt"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-git"></i>
+      <i class="fab fa-chrome"></i>
+      <i class="fas fa-terminal"></i>
+      <i class="fab fa-github"></i>
+    </div>
+  </section>
+</main>
+<!-- Footer -->
+<footer>
+  <div id="footer-links">
+    <a href="mailto:james@jamesbrett.co.uk" onmouseover="this.href=this.href.replace(/[zyx]/g,'');" target="_blank">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://twitter.com/JamesPBrett" target="_blank">
+      <i class="fab fa-twitter-square"></i>
+    </a>
+    <a href="https://github.com/JamesPBrett" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+  </div>
+  <br>
+  <div id="copyright">© <span id="year">2021</span> James Brett. All rights reserved.</div>
+</footer>
 
 
 <script src="js/script.js"></script>

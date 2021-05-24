@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>James Brett</title>
+  <meta name="description" content="James Brett Portfolio">
+  <meta name="author" content="James Brett">
+  <link href="css/reset.css?v=1.0" rel="stylesheet">
+  <link href="css/contact.css?v=1.0" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+<div class="cards">
+  <div class="contact">Contact Me</div>
+  <div class="contact-form">
+    <a href="#" class="close"><i class="fa fa-times"></i></a>
+    <form>
+      <div class="control"><input type="text" id="name" /><label for="name">Your Name</label></div>
+      <div class="control"><input type="text" id="email" /><label for="email">Email Address</label></div>
+      <div class="control"><input type="text" id="url" /><label for="url">Website</label></div>
+      <div class="control"><textarea name="" id="message"></textarea><label for="message">Message</label></div>
+      <div class="control submit"><input type="submit" /></div>
+    </form>
+  </div>
+
+
+  <a class="home" href="index.html" target="_self">home</a>
+
+
+  <div class="card active" id="overview">
+    <a class="card-toggle"><i class="fa fa-arrow-circle-left"></i></a>
+    <div class="card-content">
+      <div class="row">
+        <div class="left col">
+          <h2>Lets<strong>Work Together?</strong></h2>
+
+          <p>Click one of the icons below or click Contact Me link to show the contact form card.
+        </div>
+        <div class="right col">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" id="github">
+    <a class="card-toggle"><i><span class="fab fa-github"></span></i></a>
+    <div class="card-content">
+      <div class="row">
+        <div class="left col">
+          <h2>My <strong>GitHub</strong></h2>
+
+          <p>You've found where I hide my projects :-)</p>
+
+          <a class="social-link" href="https://github.com/JamesPBrett" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+
+        </div>
+        <div class="right col"></div>
+      </div>
+    </div>
+  </div>
+  <div class="card" id="twitter">
+    <a class="card-toggle"><i><span class="fab fa-twitter"></span></i></a>
+    <div class="card-content">
+      <div class="row">
+        <div class="left col">
+          <h2>My <strong>Twitter</strong></h2>
+          <p>You can follow me or reach out to me via twitter!</p>
+
+          <a class="social-link" href="https://twitter.com/JamesPBrett" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/card.js"></script>
+</body>
+
+</html>
